@@ -1,0 +1,3 @@
+make FLASCC=~/flascc/sdk FLEX=~/../../Applications/Adobe\ Flash\ Builder\ 4.7/sdks/4.6.0
+
+~/flascc/sdk/usr/bin/g++ main.cpp -emit-swf -o test.swf -lFlash++ -lAS3++
