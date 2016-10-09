@@ -1,0 +1,15 @@
+Files included in this archive are:
+
+C++ source
+=============
+main.cpp
+popGame.h
+popGame.cpp
+object_Background.h
+soundManager.h
+
+Files used for compilation
+================
+exports.txt
+Makefile
+Makefile command

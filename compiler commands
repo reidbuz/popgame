@@ -1,0 +1,15 @@
+/flascc/sdk/usr/bin/g++ sample.cpp -emit-swf -o sample.swf -lFlash++ -lAS3++
+
+~/flascc/sdk/usr/bin/g++ -c main.cpp -lFlash++ -lAS3++
+
+~/flascc/sdk/usr/bin/g++ main.cpp popGame.h object_Background.h -emit-swf -o main.swf -lFlash++ -lAS3++
+
+make FLASCC=~/flascc/sdk FLEX=~/../../Applications/Adobe\ Flash\ Builder\ 4.7/sdks/4.6.0
+
+~/flascc/sdk/usr/bin/g++ -c state_Gameover.h -lFlash++ -lAS3++
+
+#pragma once
+#ifndef _STATE_GAME_H_
+#define _STATE_GAME_H_
+
+#endif
